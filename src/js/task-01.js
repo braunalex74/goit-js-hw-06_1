@@ -11,3 +11,6 @@
 
 const listEl = document.querySelector(".item");
 console.log(listEl);
+
+const quantityItemEl = document.querySelectorAll(".item");
+console.log(quantityItemEl);
