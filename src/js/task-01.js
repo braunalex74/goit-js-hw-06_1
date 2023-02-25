@@ -6,5 +6,5 @@ const firstTitleEl = navTitleEl.firstElementChild.textContent;
 const lastTitleEl = navTitleEl.lastElementChild;
 
 categories.forEach((el) => {
-  console.log(`Number of categories: ${el.firstElementChild.textContent}`);
+  alert(`Number of categories: ${el.firstElementChild.textContent}`);
 });
